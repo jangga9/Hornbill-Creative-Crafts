@@ -1,0 +1,75 @@
+
+  input
+  {
+    border-radius: 25px;
+    border:2px white;
+    padding: 2px;
+    text-align: center;
+	width: 350px;
+  }
+  
+ body {
+	 background-color: #eae7dc;
+ }
+
+
+.container input
+{
+	width: 250px;
+}
+
+
+.btn {
+    border-radius: 20px;
+    color:black;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #d8c3a5;
+    font-size: 12px;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  background-color:#008fb3;
+}
+
+.ServiceDetail {
+	float: left;
+	width:50%; 
+    height:400px;
+	
+}
+
+.CustomerDetail {
+	float: left;
+	width:50%; 
+    height:400px;
+	
+	
+}
+
+.PaymentDetail {
+	float: right;
+	width:50%; 
+    height:400px; 
+	
+}
+
+.paymentcontainer {
+	
+	display: flex;
+	justify-content: center;
+    margin: 100px;
+}
+
+.paybutton {
+	position: relative;
+	
+}
